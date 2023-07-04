@@ -18,8 +18,8 @@ const Intro = () => {
           </p>
         </div>
         <div className='intro-btn-cnt'>
-          <button>Get it on Chrome </button>
-          <button>Get it on Firefox</button>
+          <button className='intro-btn'>Get it on Chrome </button>
+          <button className='intro-btn'>Get it on Firefox</button>
         </div>
       </div>
       <div className='intro-img-cnt'>
