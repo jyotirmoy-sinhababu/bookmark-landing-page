@@ -1,0 +1,9 @@
+.intro-cnt {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 60px 0px 60px;
+}
+
+.intro-sub-cnt {
+  width: 400px;
+}

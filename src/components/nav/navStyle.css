@@ -1,0 +1,40 @@
+.nav-cnt {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 60px 0px 60px;
+}
+
+.nav-btn-cnt {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+}
+
+.nav-btn {
+  background-color: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  width: 110px;
+  height: 43px;
+  border-radius: 7px;
+  color: aliceblue;
+  background-color: hsl(0, 94%, 66%);
+  border: none;
+}
+
+.nav-btns {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-btns:hover {
+  color: hsl(0, 94%, 66%);
+}
+
+.nav-btn:hover {
+  color: hsl(0, 94%, 66%);
+  border: 1px solid hsl(0, 94%, 66%);
+  background-color: transparent;
+}
