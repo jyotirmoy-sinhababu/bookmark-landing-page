@@ -1,0 +1,52 @@
+.feature-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 45px;
+}
+
+.feature-txt-cnt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 500px;
+}
+
+.feature-para {
+  text-align: center;
+  font-size: 19px;
+  font-family: 'Rubik', sans-serif;
+  color: hsl(229, 8%, 60%);
+}
+
+.feature-header {
+  font-size: 28px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.feature-btn-cnt {
+  display: flex;
+  justify-content: space-around;
+  width: 900px;
+  border-bottom: 0.2px solid black;
+}
+
+.feature-btn {
+  width: 155px;
+  border: none;
+  background-color: transparent;
+  height: 80px;
+  cursor: pointer;
+  font-size: 16px;
+  color: hsl(229, 8%, 60%);
+  font-family: 'Rubik', sans-serif;
+}
+
+.feature-btn:hover {
+  border-bottom: 4px solid hsl(0, 94%, 66%);
+  color: black;
+}
