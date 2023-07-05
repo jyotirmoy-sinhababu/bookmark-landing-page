@@ -1,17 +1,33 @@
 import React from 'react';
 
+import ChromeCard from '../extensionCard/ChromeCard';
+import MozillaCard from '../extensionCard/MozillaCard';
+import OperaCard from '../extensionCard/OperaCard';
+
+import './extesionStyle.css';
+
 const Extension = () => {
   return (
-    <div>
-      <div>
-        <h3>Download the extension</h3>
-        <p>
+    <div className='extension-cnt'>
+      <div className='extension-txt-cnt'>
+        <h3 className='extension-header'>Download the extension</h3>
+        <p className='extension-para'>
           {' '}
           We’ve got more browsers in the pipeline. Please do let us know if
           you’ve got a favourite you’d like us to prioritize.
         </p>
       </div>
-      <div></div>
+      <div className='extension-card-cnt'>
+        <div className='extension-sub-cnt'>
+          <ChromeCard />
+        </div>
+        <div className='extension-sub-cnt'>
+          <MozillaCard />
+        </div>
+        <div className='extension-sub-cnt'>
+          <OperaCard />
+        </div>
+      </div>
     </div>
   );
 };

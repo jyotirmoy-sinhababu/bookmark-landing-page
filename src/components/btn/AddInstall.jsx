@@ -1,9 +1,11 @@
 import React from 'react';
 
+import './btnStyle.css';
+
 const AddInstall = () => {
   return (
     <div>
-      <button>Add & Install Extension</button>
+      <button className='add-btn'>Add & Install Extension</button>
     </div>
   );
 };

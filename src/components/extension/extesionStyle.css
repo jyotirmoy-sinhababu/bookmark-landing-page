@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Be+Vietnam+Pro&family=Bruno+Ace+SC&family=Caprasimo&family=Epilogue&family=Inter&family=Montserrat+Alternates:wght@200&family=Oooh+Baby&family=Playfair+Display&family=Roboto&family=Rubik&display=swap');
+
+.extension-cnt {
+  display: flex;
+  flex-direction: column;
+}
+
+.extension-txt-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.extension-header {
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+}
+
+.extension-para {
+  font-family: 'Rubik', sans-serif;
+  font-size: 19px;
+  color: hsl(229, 8%, 60%);
+}
+
+.extension-card-cnt {
+  display: flex;
+  padding-top: 52px;
+  justify-content: center;
+  gap: 32px;
+}
