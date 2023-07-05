@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+const [count, setCount] = useState(0);
 
 import './featureStyle.css';
 import SimpleBookmakin from '../featureList/SimpleBookmakin';
+import SpeedySearching from '../featureList/SpeedySearching';
+import Easyharing from '../featureList/Easyharing';
 
 const Feature = () => {
   return (
@@ -21,7 +25,13 @@ const Feature = () => {
         <button className='feature-btn'>Easy Sharing</button>
       </div>
       <div>
-        <SimpleBookmakin />
+        {count == 0 ? (
+          <SimpleBookmakin />
+        ) : count == 1 ? (
+          <SpeedySearching />
+        ) : count == 2 ? (
+          <Easyharing />
+        ) : null}
       </div>
     </div>
   );
