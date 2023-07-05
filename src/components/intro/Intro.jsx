@@ -9,8 +9,8 @@ const Intro = () => {
     <div className='intro-cnt'>
       <div className='intro-sub-cnt'>
         <div className='intro-txt-cnt'>
-          <h1>A Simple Bookmark Manager</h1>
-          <p>
+          <h1 className='intro-header'>A Simple Bookmark Manager</h1>
+          <p className='intro-para'>
             {' '}
             A clean and simple interface to organize your favourite websites.
             Open a new browser tab and see your sites load instantly. Try it for

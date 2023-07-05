@@ -4,10 +4,11 @@
   display: flex;
   justify-content: space-between;
   padding: 80px 60px 0px 60px;
+  gap: 25px;
 }
 
 .intro-sub-cnt {
-  width: 400px;
+  width: 450px;
   display: flex;
   flex-direction: column;
   gap: 45px;
@@ -33,4 +34,13 @@
 .intro-btn:hover {
   color: hsl(231, 69%, 60%);
   border: 1px solid hsl(231, 69%, 60%);
+}
+
+.intro-header {
+  font-family: 'Rubik', sans-serif;
+  font-size: 45px;
+}
+
+.intro-para {
+  font-family: 'Rubik', sans-serif;
 }
