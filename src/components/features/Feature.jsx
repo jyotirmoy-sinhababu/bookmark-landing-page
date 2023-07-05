@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 
-const [count, setCount] = useState(0);
-
 import './featureStyle.css';
 import SimpleBookmakin from '../featureList/SimpleBookmakin';
 import SpeedySearching from '../featureList/SpeedySearching';
 import Easyharing from '../featureList/Easyharing';
 
 const Feature = () => {
+  const [count, setCount] = useState(0);
+
   return (
     <div className='feature-cnt'>
       <div className='feature-txt-cnt'>
@@ -20,9 +20,31 @@ const Feature = () => {
         </p>
       </div>
       <div className='feature-btn-cnt'>
-        <button className='feature-btn'> Simple Bookmarking </button>
-        <button className='feature-btn'>Speedy Searching</button>
-        <button className='feature-btn'>Easy Sharing</button>
+        <button
+          onClick={() => {
+            setCount(0);
+          }}
+          className='feature-btn'
+        >
+          {' '}
+          Simple Bookmarking{' '}
+        </button>
+        <button
+          onClick={() => {
+            setCount(1);
+          }}
+          className='feature-btn'
+        >
+          Speedy Searching
+        </button>
+        <button
+          onClick={() => {
+            setCount(2);
+          }}
+          className='feature-btn'
+        >
+          Easy Sharing
+        </button>
       </div>
       <div>
         {count == 0 ? (

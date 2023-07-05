@@ -3,6 +3,7 @@ import React from 'react';
 import Btn from '../btn/Btn';
 
 import third from '../../assest/img/illustration-features-tab-3.svg';
+import './featurListStyle.css';
 
 const Easyharing = () => {
   return (
