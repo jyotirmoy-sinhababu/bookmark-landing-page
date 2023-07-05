@@ -8,6 +8,10 @@ import Easyharing from '../featureList/Easyharing';
 const Feature = () => {
   const [count, setCount] = useState(0);
 
+  const handleCount = (num) => {
+    setCount(num);
+  };
+
   return (
     <div className='feature-cnt'>
       <div className='feature-txt-cnt'>
@@ -22,7 +26,7 @@ const Feature = () => {
       <div className='feature-btn-cnt'>
         <button
           onClick={() => {
-            setCount(0);
+            handleCount(0);
           }}
           className='feature-btn'
         >
@@ -31,7 +35,7 @@ const Feature = () => {
         </button>
         <button
           onClick={() => {
-            setCount(1);
+            handleCount(1);
           }}
           className='feature-btn'
         >
@@ -39,7 +43,7 @@ const Feature = () => {
         </button>
         <button
           onClick={() => {
-            setCount(2);
+            handleCount(2);
           }}
           className='feature-btn'
         >
