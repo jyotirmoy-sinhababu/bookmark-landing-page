@@ -18,13 +18,13 @@ const Extension = () => {
         </p>
       </div>
       <div className='extension-card-cnt'>
-        <div className='extension-sub-cnt'>
+        <div className='extension-subOne-cnt'>
           <ChromeCard />
         </div>
-        <div className='extension-sub-cnt'>
+        <div className='extension-subTwo-cnt'>
           <MozillaCard />
         </div>
-        <div className='extension-sub-cnt'>
+        <div className='extension-subThree-cnt'>
           <OperaCard />
         </div>
       </div>

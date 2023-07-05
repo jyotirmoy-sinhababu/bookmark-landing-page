@@ -30,3 +30,11 @@
   justify-content: center;
   gap: 32px;
 }
+
+.extension-subTwo-cnt {
+  padding-top: 40px;
+}
+
+.extension-subThree-cnt {
+  padding-top: 90px;
+}
