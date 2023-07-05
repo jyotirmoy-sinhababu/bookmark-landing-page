@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './featureStyle.css';
+import SimpleBookmakin from '../featureList/SimpleBookmakin';
 
 const Feature = () => {
   return (
@@ -18,6 +19,9 @@ const Feature = () => {
         <button className='feature-btn'> Simple Bookmarking </button>
         <button className='feature-btn'>Speedy Searching</button>
         <button className='feature-btn'>Easy Sharing</button>
+      </div>
+      <div>
+        <SimpleBookmakin />
       </div>
     </div>
   );

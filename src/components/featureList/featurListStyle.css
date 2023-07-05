@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Be+Vietnam+Pro&family=Bruno+Ace+SC&family=Caprasimo&family=Epilogue&family=Inter&family=Montserrat+Alternates:wght@200&family=Oooh+Baby&family=Playfair+Display&family=Roboto&family=Rubik&display=swap');
+
+.featureList-cnt {
+  display: flex;
+  justify-content: space-around;
+}
+
+.featureList-img {
+  width: 450px;
+}
+
+.featureList-txt-cnt {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  width: 450px;
+  gap: 24px;
+}
+
+.featureList-header,
+.featureList-para {
+  font-family: 'Rubik', sans-serif;
+}
+
+.featureList-para {
+  color: hsl(229, 8%, 60%);
+}
