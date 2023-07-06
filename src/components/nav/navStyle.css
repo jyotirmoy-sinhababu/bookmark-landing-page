@@ -38,3 +38,29 @@
   border: 1px solid hsl(0, 94%, 66%);
   background-color: transparent;
 }
+
+.mobile-view-cnt {
+  display: none;
+}
+
+@media screen and (max-width: 805px) {
+  .nav-btn-cnt {
+    display: none;
+  }
+
+  .mobile-view-cnt {
+    display: block;
+  }
+  .hamburger-btn-cnt {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .hamburger-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 45px;
+    cursor: pointer;
+    color: rgb(63, 62, 62);
+  }
+}

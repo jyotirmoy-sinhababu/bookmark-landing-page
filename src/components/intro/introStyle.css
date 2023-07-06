@@ -29,7 +29,8 @@
   font-size: 14px;
   font-family: 'Rubik', sans-serif;
 }
-x .intro-btn:hover {
+
+.intro-btn:hover {
   color: hsl(231, 69%, 60%);
   border: 1px solid hsl(231, 69%, 60%);
 }
@@ -52,5 +53,13 @@ x .intro-btn:hover {
 @media screen and (max-width: 805px) {
   .intro-cnt {
     flex-direction: column-reverse;
+    align-items: center;
+  }
+  .intro-sub-cnt {
+    width: 350px;
+  }
+  .intro-header {
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
   }
 }

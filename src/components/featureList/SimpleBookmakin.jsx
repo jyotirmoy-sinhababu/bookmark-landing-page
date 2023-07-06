@@ -18,7 +18,9 @@ const SimpleBookmakin = () => {
           interface gives you complete control over how you manage your
           favourite sites.
         </p>
-        <Btn />
+        <div className='feaList-btn-cnt'>
+          <Btn />
+        </div>
       </div>
     </div>
   );

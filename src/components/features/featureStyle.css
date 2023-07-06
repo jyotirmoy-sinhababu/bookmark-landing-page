@@ -50,3 +50,27 @@
   border-bottom: 4px solid hsl(0, 94%, 66%);
   color: black;
 }
+
+@media screen and (max-width: 940px) {
+  .feature-txt-cnt {
+    width: 400px;
+  }
+  .feature-para {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .feature-btn-cnt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    border-bottom: none;
+  }
+  .feature-btn {
+    width: 255px;
+    border-bottom: 1px solid black;
+  }
+}

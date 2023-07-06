@@ -17,7 +17,9 @@ const Easyharing = () => {
           Easily share your bookmarks and collections with others. Create a
           shareable link that you can send at the click of a button.
         </p>
-        <Btn />
+        <div className='feaList-btn-cnt'>
+          <Btn />
+        </div>
       </div>
     </div>
   );

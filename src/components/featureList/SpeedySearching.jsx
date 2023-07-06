@@ -17,7 +17,9 @@ const SpeedySearching = () => {
           Our powerful search feature will help you find saved sites in no time
           at all. No need to trawl through all of your bookmarks.
         </p>
-        <Btn />
+        <div className='feaList-btn-cnt'>
+          <Btn />
+        </div>
       </div>
     </div>
   );

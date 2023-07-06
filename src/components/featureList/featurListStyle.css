@@ -25,3 +25,30 @@
 .featureList-para {
   color: hsl(229, 8%, 60%);
 }
+
+@media screen and (max-width: 940px) {
+  .featureList-img {
+    width: 350px;
+  }
+  .featureList-txt-cnt {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 350px;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .featureList-cnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .feaList-btn-cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
