@@ -10,6 +10,7 @@ import QuestionSection from '../../components/questionSection/QuestionSection';
 import QuestionHeader from '../../components/questionSection/QuestionHeader';
 import Btn from '../../components/btn/Btn';
 import FormComp from '../../components/formComp/FormComp';
+import Footer from '../../components/footer/Footer';
 
 const LandingPage = () => {
   return (
@@ -31,6 +32,7 @@ const LandingPage = () => {
         <Btn />
       </div>
       <FormComp />
+      <Footer />
     </div>
   );
 };
