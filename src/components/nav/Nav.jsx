@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import { GiHamburgerMenu } from 'react-icons/gi';
+import { RxCross1 } from 'react-icons/rx';
 
 import './navStyle.css';
 
@@ -34,16 +35,16 @@ const Nav = () => {
               handleAnswers();
             }}
           >
-            <GiHamburgerMenu />
+            {isMobile ? <RxCross1 /> : <GiHamburgerMenu />}
           </button>
         </div>
 
         {isMobile ? (
-          <div>
+          <div className='nav-mob-btn-cnt'>
             <button className='mob-btns'>FEATURES</button>
             <button className='mob-btns'>PRICING</button>
             <button className='mob-btns'>CONTACT</button>
-            <button className='mob-btn'>LOGIN</button>
+            <button className='mob-btns'>LOGIN</button>
           </div>
         ) : null}
       </div>
