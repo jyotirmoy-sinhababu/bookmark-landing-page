@@ -42,3 +42,15 @@ x .intro-btn:hover {
 .intro-para {
   font-family: 'Rubik', sans-serif;
 }
+
+@media screen and (max-width: 1046px) {
+  .intro-img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 805px) {
+  .intro-cnt {
+    flex-direction: column-reverse;
+  }
+}

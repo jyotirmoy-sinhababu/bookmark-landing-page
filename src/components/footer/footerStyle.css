@@ -1,0 +1,21 @@
+.footer-cnt {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 250px;
+}
+
+.attribution {
+  font-family: 'Rubik', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.footer-link {
+  font-size: 25px;
+}
+
+.footer-dev-info {
+  display: flex;
+  gap: 21px;
+}
