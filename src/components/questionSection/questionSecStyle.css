@@ -1,0 +1,30 @@
+.isNot {
+  display: none;
+}
+
+.isAvailable {
+  display: block;
+}
+
+.question-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 65px;
+  gap: 45px;
+}
+
+.question-txt-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.question-ans-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

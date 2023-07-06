@@ -1,38 +1,45 @@
 import React, { useState } from 'react';
 
+import './questionSecStyle.css';
 import { AiOutlineDown } from 'react-icons/ai';
 import { IoIosArrowUp } from 'react-icons/io';
 
-import { data } from '../../assest/dataCnt/Data';
-
-const QuestionSection = () => {
+const QuestionSection = ({ item }) => {
   const [isQuestionClicked, setIsQuestionClicked] = useState(false);
 
   const handleAnswers = () => {
-    if (isQuestionClicked) {
+    if (!isQuestionClicked) {
       setIsQuestionClicked(true);
     }
-    if (!isQuestionClicked) {
+    if (isQuestionClicked) {
       setIsQuestionClicked(false);
     }
   };
   return (
-    <div>
-      {data?.map((item) => {
-        return (
-          <div key={item.id}>
-            <div>
-              <button>
-                {item.question}
-                {!isQuestionClicked ? <AiOutlineDown /> : <IoIosArrowUp />}
-              </button>
-            </div>
-            <div>
-              <p>{item.answer}</p>
-            </div>
+    <div className='question-cnt'>
+      <div className='question-ans-cnt'>
+        {' '}
+        <div>
+          <div className='question-btn-cnt'>
+            <button
+              className='question-btn'
+              onClick={() => {
+                handleAnswers();
+              }}
+            >
+              {item.question}
+              {!isQuestionClicked ? <AiOutlineDown /> : <IoIosArrowUp />}
+            </button>
           </div>
-        );
-      })}
+          <div
+            className={`question-ans ${
+              !isQuestionClicked ? 'isNot' : 'isAvailable '
+            }`}
+          >
+            <p className='ans-para'>{item.answer}</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
