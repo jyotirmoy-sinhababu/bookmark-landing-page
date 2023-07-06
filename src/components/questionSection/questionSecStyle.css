@@ -82,3 +82,15 @@
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 840px) {
+  .question-ans-cnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+  }
+  .question-header-cnt {
+    padding-left: 25px;
+  }
+}

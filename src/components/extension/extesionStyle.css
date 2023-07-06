@@ -38,3 +38,35 @@
 .extension-subThree-cnt {
   padding-top: 90px;
 }
+
+@media screen and (max-width: 840px) {
+  .extension-cnt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .extension-txt-cnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 350px;
+  }
+
+  .extension-card-cnt {
+    display: flex;
+    flex-direction: column;
+    padding-top: 52px;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .extension-subTwo-cnt {
+    padding-top: 0px;
+  }
+
+  .extension-subThree-cnt {
+    padding-top: 0px;
+  }
+}
