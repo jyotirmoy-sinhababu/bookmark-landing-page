@@ -8,6 +8,8 @@ import Feature from '../../components/features/Feature';
 import Extension from '../../components/extension/Extension';
 import QuestionSection from '../../components/questionSection/QuestionSection';
 import QuestionHeader from '../../components/questionSection/QuestionHeader';
+import Btn from '../../components/btn/Btn';
+import FormComp from '../../components/formComp/FormComp';
 
 const LandingPage = () => {
   return (
@@ -25,6 +27,10 @@ const LandingPage = () => {
           </div>
         );
       })}
+      <div className='landing-btn-cnt'>
+        <Btn />
+      </div>
+      <FormComp />
     </div>
   );
 };

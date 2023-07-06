@@ -56,6 +56,10 @@
   cursor: pointer;
 }
 
+.question-btn:hover {
+  color: hsl(0, 94%, 66%);
+}
+
 .question-btn-cnt {
   border-bottom: 1px solid grey;
 }
@@ -70,4 +74,11 @@
   display: flex;
   flex-direction: column;
   gap: 13px;
+}
+
+.landing-btn-cnt {
+  display: flex;
+  padding-top: 60px;
+  justify-content: center;
+  align-items: center;
 }
