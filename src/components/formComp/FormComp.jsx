@@ -20,7 +20,7 @@ const FormComp = () => {
     <div className='formComp-cnt'>
       <div className='formComp-head'>
         <p className='formComp-para'> 35,000+ already joined</p>
-        <h3 className='formComp-head'>
+        <h3 className='formComp-header'>
           {' '}
           Stay up-to-date with what we’re doing
         </h3>

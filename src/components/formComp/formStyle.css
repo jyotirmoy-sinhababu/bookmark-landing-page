@@ -27,7 +27,7 @@
   font-family: 'Rubik', sans-serif;
 }
 
-.formComp-head {
+.formComp-header {
   font-weight: 600;
   font-family: 'Rubik', sans-serif;
   font-size: 25px;
@@ -76,4 +76,26 @@
   font-family: 'Rubik', sans-serif;
   font-size: 17px;
   font-weight: 700;
+}
+
+@media screen and (max-width: 840px) {
+  .formComp-cnt {
+    height: 250px;
+  }
+
+  .formComp-header {
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .submit-btn {
+    width: 254px;
+    height: 41px;
+  }
 }

@@ -91,6 +91,11 @@
     width: 350px;
   }
   .question-header-cnt {
-    padding-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .question-txt-cnt {
+    width: 350px;
   }
 }

@@ -19,3 +19,16 @@
   display: flex;
   gap: 21px;
 }
+
+@media screen and (max-width: 850px) {
+  .footer-cnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 250;
+  }
+  .attribution {
+    text-align: center;
+  }
+}
